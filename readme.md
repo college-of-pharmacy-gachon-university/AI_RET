@@ -42,7 +42,7 @@ Select and import the provided .knwf file.
 Execute the workflow within the KNIME workspace to collect and preprocess the RET-specific dataset.
 
 ## Molecular Generation using Reinforcement Learning
-This repository includes multiple .json configuration files for executing reinforcement learning (RL) jobs using REINVENT v3.2.
+This repository includes multiple .json configuration files under `RL_JSON_FILE folder` for executing reinforcement learning (RL) jobs using REINVENT v3.2.
 
 #### Setup:
 To install REINVENT v3.2, please follow the instructions on the official REINVENT GitHub repository (https://github.com/MolecularAI/Reinvent).
@@ -50,7 +50,7 @@ To install REINVENT v3.2, please follow the instructions on the official REINVEN
 Once installed, you may run individual jobs as follows:
 
 ```bash
-cd Job01
+cd RL_JSON_FILE/Job01
 python input.py RL_config.json
 ```
 ⚠️ Note: Before running any job, make sure to update the file paths in the .json configuration files for reading input and writing output.
