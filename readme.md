@@ -51,7 +51,7 @@ Once installed, you may run individual jobs as follows:
 
 ```bash
 cd Job01
-python input.py input.json
+python input.py RL_config.json
 ```
 ⚠️ Note: Before running any job, make sure to update the file paths in the .json configuration files for reading input and writing output.
 
