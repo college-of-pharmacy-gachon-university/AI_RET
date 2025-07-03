@@ -30,7 +30,7 @@ This project required several external tools and software modules. Please ensure
 ## Dataset Collection
 To facilitate RET-specific data curation, we provide a pre-built KNIME workflow (.knwf file):
 
-#### File: `AI_RET_MANUSCRIPT_DATA_V3.knwf`
+#### File: `RET_DATASET.knwf`
 
 #### How to use the KNIME workflow:
 Launch the KNIME Analytics Platform.
@@ -56,7 +56,7 @@ python input.py input.json
 ⚠️ Note: Before running any job, make sure to update the file paths in the .json configuration files for reading input and writing output.
 
 ## Post-Processing and Analysis
-A KNIME workflow `(AI_RET_MANUSCRIPT_DATA_V3.knwf)` is provided for post-processing the generated molecules and analyzing the outputs from the reinforcement learning (RL) jobs. Please note that the exact procedure used in this study is implemented in the workflow. However, due to confidentiality, the SMILES structures of all the de novo generated molecules are not publicly disclosed or included in this repository.
+A KNIME workflow `(AI_RET_MANUSCRIPT_DATA.knwf)` is provided for post-processing the generated molecules and analyzing the outputs from the reinforcement learning (RL) jobs. Please note that the exact procedure used in this study is implemented in the workflow. However, due to confidentiality, the SMILES structures of all the de novo generated molecules are not publicly disclosed or included in this repository.
 
 ## Inception File
 An inception file containing known RET-specific ligands is included to guide the reinforcement learning model during training. This file can be directly used in the configuration files `*json` of REINVENT.
