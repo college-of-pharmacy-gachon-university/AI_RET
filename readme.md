@@ -2,8 +2,6 @@
 
 ## Reinforcement Learning-Based RET-Specific Molecular Design
 
-![image](https://github.com/user-attachments/assets/48ed5da2-9fe8-4f77-8bc5-65de487f53d3)
-
 This repository hosts the code, data, and documentation for the project:
 
 #### Generative Model-Guided Discovery of Amino Quinoxaline Scaffold as a Novel RET Alteration Inhibitor with Exploration of the Cryptic Pocket
