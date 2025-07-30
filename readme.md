@@ -53,6 +53,9 @@ python input.py RL_config.json
 ```
 ⚠️ Note: Before running any job, make sure to update the file paths in the .json configuration files for reading input and writing output.
 
+## RET Regression Model (G810R Mutant)
+This folder contains the dataset for the RET G810R mutant, along with a Jupyter Notebook used for training, prediction, and saving the regression model. The trained model used in this work is also included.
+
 ## Post-Processing and Analysis
 A KNIME workflow `(AI_RET_MANUSCRIPT_DATA.knwf)` is provided for post-processing under `KNIME_WORKFLOW folder` the generated molecules and analyzing the outputs from the reinforcement learning (RL) jobs. Please note that the exact procedure used in this study is implemented in the workflow. However, due to confidentiality, the SMILES structures of all the de novo generated molecules are not publicly disclosed or included in this repository.
 
