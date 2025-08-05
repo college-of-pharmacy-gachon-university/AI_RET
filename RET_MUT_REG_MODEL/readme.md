@@ -98,6 +98,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook RET_MUT_Regression_Model.ipynb
 ```
+This notebook provides the complete workflow, including model training, testing, and validation performance assessment.
 
 ## Predicting New Compounds
 You can use the trained model (RET_MUTANT_final_model_Hyper.pkl) to predict pIC50 values for new compounds:
@@ -136,6 +137,7 @@ The model is evaluated using multiple metrics:
 Performance is reported separately for:
 - Training set
 - Test set
+- Cross-validation
 - Final model (trained on complete dataset)
 
 ## Reproducibility is ensured through:
