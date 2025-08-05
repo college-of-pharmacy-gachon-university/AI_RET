@@ -1,0 +1,20 @@
+# RET Mutation Regression Model - Python Dependencies
+# Generated based on the actual versions used in model training
+
+# Core scientific computing libraries
+numpy==1.18.1
+pandas==1.0.3
+scipy==1.4.1
+
+# Machine learning
+scikit-learn==0.21.3
+
+# Visualization
+matplotlib==3.1.3
+
+# Cheminformatics
+# Note: RDKit installation requires conda or specific pip setup
+# For conda: conda install -c conda-forge rdkit=2020.03.3
+# For pip: see https://rdkit.readthedocs.io/en/latest/Install.html
+rdkit==2020.03.3
+
