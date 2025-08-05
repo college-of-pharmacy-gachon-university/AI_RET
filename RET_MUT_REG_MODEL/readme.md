@@ -69,13 +69,6 @@ scipy>=1.4.1
 
 # Cheminformatics
 rdkit>=2020.03.3
-
-# Utilities
-pickle (built-in)
-warnings (built-in)
-os (built-in)
-math (built-in)
-random (built-in)
 ```
 
 ## Installation
