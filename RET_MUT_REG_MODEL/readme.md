@@ -11,7 +11,7 @@ This repository provides a complete workflow for building predictive models for 
 ## Repository Structure
 
 ```
-├── RET_MUT_Regression_Model_Revised.ipynb          # Main training notebook
+├── RET_MUT_Regression_Model.ipynb                  # Main training notebook
 ├── RET_Mutant_SELECTED_TR_TS_threshold_6.0.csv     # Original dataset
 ├── RET_Mutant_train_set.csv                        # Training split (80%)
 ├── RET_Mutant_test_set.csv                         # Test split (20%)
