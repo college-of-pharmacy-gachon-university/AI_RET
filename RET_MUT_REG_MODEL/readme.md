@@ -148,7 +148,7 @@ The pipeline ensures reproducibility through:
 
 ## File Descriptions
 
-- **`RET_MUT_Regression_Model_Revised.ipynb`**: End-to-end training workflow notebook
+- **`RET_MUT_Regression_Model.ipynb`**: End-to-end training workflow notebook
 - **`RET_Mutant_SELECTED_TR_TS_threshold_6.0.csv`**: Original dataset with all compounds
 - **`RET_Mutant_train_set.csv`**: Training set (80% of data)
 - **`RET_Mutant_test_set.csv`**: Test set (20% of data)
