@@ -137,9 +137,18 @@ The model is evaluated using multiple metrics:
 Performance is reported separately for:
 - Training set
 - Test set
-- Cross-validation
 - Final model (trained on complete dataset)
 
+### Cross-Validation
+
+The model employs **5-fold cross-validation** on the training set to ensure robust performance estimation.  
+
+**Cross-validation metrics (5-fold):**
+- **R² (CV mean ± std):** 0.4868 ± 0.0396  
+- **RMSE (CV mean ± std):** 0.4529 ± 0.0175  
+- **MAE (CV mean ± std):** 0.3453 ± 0.0182  
+- **PCC (CV mean ± std):** 0.7045 ± 0.0258
+- 
 ## Reproducibility is ensured through:
 
 The pipeline ensures reproducibility through:
