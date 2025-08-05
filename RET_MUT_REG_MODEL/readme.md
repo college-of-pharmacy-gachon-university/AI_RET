@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 **Run the notebook**
 ```bash
-jupyter notebook RET_MUT_Regression_Model_Revised.ipynb
+jupyter notebook RET_MUT_Regression_Model.ipynb
 ```
 
 ## Predicting New Compounds
