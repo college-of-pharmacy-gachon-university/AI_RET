@@ -87,6 +87,7 @@ conda activate ret-mutation-model
 
 # Or using pip (RDKit installation may require additional steps)
 conda env create -n ret-mutation-model python=3.7.7
+conda activate ret-mutation-model
 pip install -r requirements.txt
 # For RDKit installation via pip, see: https://rdkit.readthedocs.io/en/latest/Install.html
 ```
